@@ -29,7 +29,8 @@
 
   </head>
   <style>
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+     @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+    .mySlides {display:none;}
 </style>
 
   <body id="page-top">
@@ -75,7 +76,12 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides img-fluid" src="img_la.jpg" style="width:100%">
+                        <img class="mySlides img-fluid" src="img_ny.jpg" style="width:100%">
+                        <img class="mySlides img-fluid" src="img_chicago.jpg" style="width:100%">
+                    </div>
+                    <!--<img src="img/demo-screen-1.jpg" class="img-fluid" alt=""> -->
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
