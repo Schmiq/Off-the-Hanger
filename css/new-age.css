@@ -440,5 +440,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
-p-centered{margin-left:auto;
+.p-centered{margin-left:auto;
   margin-right:auto;}
