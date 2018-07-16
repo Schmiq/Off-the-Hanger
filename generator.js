@@ -3,7 +3,7 @@
 <body>
 
 
- <script>
+// <script>
 // function myFunction() {
 //    document.getElementById("demo").innerHTML = "Paragraph changed.";
 // }
@@ -24,14 +24,8 @@
 
 
 
- <script language="JavaScript">
-<!--
+ <script>
 
-/*
-Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
-Over 400+ free JavaScripts here!
-Keep this notice intact please
-*/
 
 function random_imglink(){
 var myimages=new Array()
@@ -112,13 +106,6 @@ myimage.pic();
         </nav>
 
           <br>
-
-
-
-
-
-
-
 
 
 
