@@ -41,22 +41,27 @@ myimages[2]="fashion3.jpg"
 myimages[3]="fashion4.jpg"
 myimages[4]="fashion5.jpg"
 myimages[5]="jag.jpg"
-myimages[6]="pup.jpg"
+myimages[6]="beach.jpg"
 
-var ry=Math.floor(Math.random()*myimages.length)
-if (ry==0)
-ry=1
-document.write('<img src="'+myimages[ry]+'" border=0>')
+var pic=Math.floor(Math.random()*myimages.length)
+if (pic==0)
+pic=1
+document.write('<img src="'+myimages[pic]+'" border=0>')
 }
 random_imglink()
 //-->
+
+var pic = {
+    // firstName:"John",
+    // lastName: "Doe",
+    pic: function () {
+        return random_imglink();
+    }
+}
+myimage.pic();
 </script>
 
-// <p align="center">This free script provided by<br />
-// <a href="http://javascriptkit.com">JavaScript
-// Kit</a></p>
 
-</script>
 
 </body>
 
@@ -85,7 +90,7 @@ random_imglink()
 
               <li class="nav-item">
 
-                <a class="nav-link js-scroll-trigger" href="generator.js">GENERATE</a>
+                <a class="nav-link js-scroll-trigger" href="">GENERATE</a>
 
             </li>
           </ul>
