@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  color:#52fd88;
+  color:white;
 }
 
 a:hover, a:focus {
@@ -390,8 +390,8 @@ section.contact ul.list-social li.social-google-plus a:hover {
 footer {
   padding: 25px 0;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+/*   color: rgba(255, 255, 255, 0.3); */
+  background-color: gray;
 }
 
 footer p {
