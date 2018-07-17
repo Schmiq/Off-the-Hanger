@@ -36,7 +36,7 @@
         background-size: cover;
       }
     </style>
-    
+
      <!--CSS  -->
     <style>
       #pic1,#pic2,#pic3 {display: block}
@@ -49,12 +49,12 @@
 
 
 <!--  JAVASCRIPT-->
-    <script>     
-      
+    <script>
+
     function getRandom(max){
       return Math.floor(Math.random() * Math.floor(max));
     }
-      
+
     var topimages = new Array()
     topimages[0]= "top1.jpg"
     topimages[1]= "top2.jpg"
@@ -64,7 +64,7 @@
     topimages[5]= "top6.jpg"
     topimages[6]= "top7.jpg"
     topimages[7]= "top8.jpg"
-      
+
     var middleimages = new Array()
     middleimages [0]="bottoms1.jpg"
     middleimages [1]="bottoms2.jpg"
@@ -76,7 +76,7 @@
     middleimages [7]="bottoms8.jpg"
     middleimages [8]="bottoms9.jpg"
     middleimages [9]="bottoms10.jpg"
-      
+
     var bottomimages = new Array()
     bottomimages [0]="shoes1.jpg"
     bottomimages [1]="shoes2.jpg"
@@ -89,22 +89,18 @@
     bottomimages [8]="shoes9.jpg"
     bottomimages [9]="shoes10.jpg"
     bottomimages [10]="shoes11.jpg"
-      
-      
+
+
       function generator(){
-
-
     document.getElementById("pic1").src = topimages[getRandom(topimages.length -1)];
     document.getElementById("pic2").src = middleimages[getRandom(middleimages.length -1)];
     document.getElementById("pic3").src = bottomimages[getRandom(bottomimages.length -1)];
-
       }
-
     </script>
-    
+
 </head>
-  
- 
+
+
     <body id="page-top">
 
     <div>
@@ -168,7 +164,7 @@
 
         </nav>
 
-  
+
     <div class="col-lg-8 my-auto cta">
 
               <h1 class=>This quiz was created to focus our content in the direction of your personal style.</h1>
@@ -178,15 +174,15 @@
 
                  (1) Do you prefer leather or denim Jackets?<input type="text" />
                  <p></p>
-                (2) What is your shoe size?
+                (2) What is your shoe size?<input type="text" />
                 <p></p>
-                <button>4.5</button><button>5.0</button><button>5.5</button><button>6.0</button>
+                <p>4.5,5.0,5.5,6.0</p>
                 <p></p>
-                <button>6.5</button><button>7.0</button><button>7.5</button><button>8.0</button>
+                <p>6.5,7.0,7.5,8.0</p>
                 <p></p>
-                <button>8.5</button><button>9.0</button><button>9.5</button><button>10.0</button>
+                <p>8.5,9.0,9.5,10.0</p>
                 <p></p>
-                <button>10.5</button><button>11.0</button><button>11.5</button><button>12.0</button>
+                <p>10.5,11.0,11.5,12.0</p>
 
                 <p></p>
                 (3) Are you petite,plus-size,or mid size?<input type="text" />
@@ -195,34 +191,34 @@
                 <p></p>
                 (5) What size shirt do you wear?
                 <p></p>
-                <button>X Small</button><button>Small</button><button>Medium</button><button>Large</button><button>X Large</button><button>XX Large</button>
+                <p>X Small</p><p>Small</p><p>Medium</p><p>Large</p><p>X Large</p><p>XX Large</p>
 
 
                 <p></p>
                 (6) What size pants do you wear?
                 <p></p>
-                <button>X Small</button><button>Small</button><button>Medium</button><button>Large</button><button>X Large</button><button>XX Large</button>
+                <p>X Small</p><p>Small</p><p>Medium</p><p>Large</p><p>X Large</p><p>XX Large</p>
                 <p></p>
 
-<!--               <!-  <button><a href="https://rawgit.com/Schmiq/Off-the-Hanger/master/generator.html">Generate!</a></button>  --> 
+<!--               <!-  <button><a href="https://rawgit.com/Schmiq/Off-the-Hanger/master/generator.html">Generate!</a></button>  -->
               </form>
-      
+
   </div>
-      
+
    <div>
   <section class = "picgen">
 
     <button onclick = "generator()">GENERATE</button>
-  
+
   <img id="pic1" src = "pixel1.png" height="300" width="300" align="block">
   <img id="pic2" src = "pixel1.png" height="300" width="300" align="block">
   <img id="pic3" src = "pixel1.png" height="300" width="300" align="block">
-   </section> 
+   </section>
       </div>
-      
+
         <footer>
           <div class="container">
-   
+
             <p>&copy; Off the Hanger 2018. All Rights Reserved.</p>
           </div>
           <br>
