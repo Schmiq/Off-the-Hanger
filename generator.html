@@ -6,50 +6,8 @@
     <style>
       #pic1,#pic2,#pic3 {display: block}
     </style>
-<!--  JAVASCRIPT-->
-    <script>     
-      
-    function getRandom(max){
-      return Math.floor(Math.random()
-    Math.floor());
-    }
-      
-    var topimages = new Array()
-    topimages[0]="fashion3.jpg"
-    topimages[1]= "fashion2.jpg"
-
-    var middleimages = new Array()
-    middleimages [0]="fashion5.jpg"
-    middleimages [0]="fashion5.jpg"
-
-    var bottomimages = new Array()
-    bottomimages [0]= "fashion4.jpg"
-    bottomimages [1]="Fashion1.jpg"
-      
-      function generator(){
-
-
-    document.getElementById("pic1").src = topimages[getRandom(topimages.length -1)];
-    document.getElementById("pic2").src = middleimages[getRandom(middleimages.length -1)];
-    document.getElementById("pic3").src = bottomimages[getRandom(bottomimages.length -1)];
-
-      }
-
-    </script>
-</head>
-
-<!-- HTML -->
-<body>
   
-  <button onclick = "generator()">
-  
-  <img id="pic1" src = "1pixel.jpg" height="100" width="100" align="center">
-  <img id="pic2" src = "1pixel.jpg" height="100" width="100" align="center">
-  <img id="pic3" src = "1pixel.jpg" height="100" width="100" align="center">
-  </body>  
-   </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
 
       <div class="container">
 
@@ -104,4 +62,48 @@
 
           <br>
 
+<!--  JAVASCRIPT-->
+    <script>     
+      
+    function getRandom(max){
+      return Math.floor(Math.random()
+    Math.floor());
+    }
+      
+    var topimages = new Array()
+    topimages[0]="fashion3.jpg"
+    topimages[1]= "fashion2.jpg"
+
+    var middleimages = new Array()
+    middleimages [0]="fashion5.jpg"
+    middleimages [0]="fashion5.jpg"
+
+    var bottomimages = new Array()
+    bottomimages [0]= "fashion4.jpg"
+    bottomimages [1]="Fashion1.jpg"
+      
+      function generator(){
+
+
+    document.getElementById("pic1").src = topimages[getRandom(topimages.length -1)];
+    document.getElementById("pic2").src = middleimages[getRandom(middleimages.length -1)];
+    document.getElementById("pic3").src = bottomimages[getRandom(bottomimages.length -1)];
+
+      }
+
+    </script>
+</head>
+
+<!-- HTML -->
+<body>
+  
+  <button onclick = "generator()">
+  
+  <img id="pic1" src = "1pixel.jpg" height="100" width="100" align="center">
+  <img id="pic2" src = "1pixel.jpg" height="100" width="100" align="center">
+  <img id="pic3" src = "1pixel.jpg" height="100" width="100" align="center">
+  </body>  
+   </div>
+
+   
 </html>
